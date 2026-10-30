@@ -1,0 +1,22 @@
+{
+  "name": "zakrivayuschiy-teg-f",
+  "version": "1.0.0",
+  "description": "https://github.com/RaiBinger/zakrivayuschiy-teg-f",
+  "homepage": "https://github.com/RaiBinger/zakrivayuschiy-teg-f#readme",
+  "bugs": {
+    "url": "https://github.com/RaiBinger/zakrivayuschiy-teg-f/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaiBinger/zakrivayuschiy-teg-f.git"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "stylelint": "^17.16.0"
+  }
+}
