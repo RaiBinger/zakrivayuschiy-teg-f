@@ -14,4 +14,7 @@
   --title-font-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
   --header-padding-block: clamp(120px, 108.46px + 3.08vw, 130px);
   --label-stroke-color: #fff;
+  --accent-text-color: #fff;
+  --heart-contour-color: #000;
+  --animation-fill-color: red;
 }
