@@ -184,7 +184,7 @@ button {
   letter-spacing: 0%;
   z-index: 2;
   color: var(--accent-text-color);
-  mix-blend-mode: difference; 
+  mix-blend-mode: difference;
 }
 
 .button-save {
@@ -199,14 +199,14 @@ button {
   margin: 50px auto 100px;
 }
 
-.floppy{
+.floppy {
   position: relative;
   display: block;
   block-size: 28px;
   inline-size: 28px;
   z-index: 1;
-  filter: invert(100%); 
-  mix-blend-mode: difference; 
+  filter: invert(100%);
+  mix-blend-mode: difference;
 }
 
 dialog {
@@ -261,7 +261,7 @@ dialog::backdrop {
 }
 
 
-/* .less-dark {
+.less-dark {
   filter:opacity(75%);
 }
 
@@ -291,7 +291,7 @@ dialog::backdrop {
 
 .bright-smoth {
   filter: brightness(60%) contrast(200%) grayscale(50%);
-} */
+}
 
 .button {
   cursor: pointer;
