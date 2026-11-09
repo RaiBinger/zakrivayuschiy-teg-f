@@ -133,10 +133,20 @@
   background-color: var(--button-bg-color);
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: var(--block-border);
+  background-color: var(--button-bg-color);
+}
+
 .card__icon-button {
   border: none;
+  cursor: pointer;
   box-shadow: inset 0 0 0 2px rgb(0 0 0 / 0);
-  background-color: var(--button-bg-color);
+  background-color: transparent;
   transition: box-shadow 0.3s ease;
   inline-size: 38px;
   block-size: 38px;
@@ -149,11 +159,6 @@
 }
 
 .card__like-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: var(--block-border);
-  background-color: var(--button-bg-color);
   inline-size: 130px;
   block-size: 38px;
 }
@@ -166,21 +171,16 @@
   font-family: var(--accent-font);
   font-weight: 400;
   font-size: 14px;
-  line-height: 0,9;
+  line-height: 0.9;
   mix-blend-mode: difference;
 }
 
 .button-save {
   position: relative;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 8px;
   margin: 50px auto 100px;
-  border: var(--block-border);
   padding: 16px 18px;
-  background-color: var(--button-bg-color);
 }
 
 .floppy {
@@ -235,15 +235,9 @@ dialog::backdrop {
 }
 
 .popup__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: var(--block-border);
   padding: 12px 0;
-  background-color: var(--button-bg-color);
   inline-size: 100%;
 }
-
 
 .less-dark {
   filter:opacity(75%);
@@ -277,11 +271,8 @@ dialog::backdrop {
   filter: brightness(60%) contrast(200%) grayscale(50%);
 }
 
-.button {
-  cursor: pointer;
-}
-
-.button:focus {
+.button:focus,
+.card__icon-button:focus {
   outline: none;
 }
 
@@ -309,7 +300,7 @@ dialog::backdrop {
   transform: scaleX(1);
 }
 
-.button:has(.like-icon):focus-visible {
+.card__icon-button:has(.like-icon):focus-visible {
   box-shadow: inset 0 0 0 2px rgb(0 0 0 / 1);
   transition: box-shadow 0.3s ease;
 }
