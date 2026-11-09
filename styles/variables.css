@@ -17,4 +17,9 @@
   --accent-text-color: #fff;
   --heart-contour-color: #000;
   --animation-fill-color: red;
+  --block-border: 2px solid #000;
+  --block-bg-color: #fff;
+  --button-bg-color: #fff;
+  --dialog-backdrop-bg-color: #000;
+  --hover-accent-color: #000;
 }
